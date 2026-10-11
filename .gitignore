@@ -1,0 +1,15 @@
+# Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment Variables & Secrets (CRITICAL: Do not commit keys)
+.env
+
+# Logs and system artifacts
+*.log
+.system_generated/
+.coverage
+htmlcov/
